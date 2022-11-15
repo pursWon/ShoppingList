@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BF896E79-5C7F-4353-AB3D-7B33D8B7F4A7"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1575B17E-7A8B-446F-97E1-62C0F9CA6B89"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "shoppingList/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "4"
+            endingLineNumber = "4"
+            landmarkName = "tableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "1575B17E-7A8B-446F-97E1-62C0F9CA6B89 - f19e9068443812c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shoppingList.tableViewController.tableView.getter : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "shoppingList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookair/Project/shoppingList/shoppingList/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "4"
+                  endingLineNumber = "4"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "1575B17E-7A8B-446F-97E1-62C0F9CA6B89 - 1d9db2bf3d5e26ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shoppingList.tableViewController.tableView.setter : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "shoppingList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookair/Project/shoppingList/shoppingList/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "4"
+                  endingLineNumber = "4"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "1575B17E-7A8B-446F-97E1-62C0F9CA6B89 - eab24908ebf47fc0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shoppingList.tableViewController.tableView.modify : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "shoppingList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookair/Project/shoppingList/shoppingList/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "4"
+                  endingLineNumber = "4"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "1575B17E-7A8B-446F-97E1-62C0F9CA6B89 - a443acc98f21b78a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shoppingList.tableViewController.tableView.modify : Swift.Optional&lt;__C.UITableView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "shoppingList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookair/Project/shoppingList/shoppingList/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "4"
+                  endingLineNumber = "4"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "1575B17E-7A8B-446F-97E1-62C0F9CA6B89 - 1bc98344b581e84"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shoppingList.tableViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; shoppingList.tableViewController"
+                  moduleName = "shoppingList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookair/Project/shoppingList/shoppingList/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "4"
+                  endingLineNumber = "4"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "1575B17E-7A8B-446F-97E1-62C0F9CA6B89 - 8082f9d1848a88c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shoppingList.tableViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;shoppingList.tableViewController&gt;"
+                  moduleName = "shoppingList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookair/Project/shoppingList/shoppingList/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "4"
+                  endingLineNumber = "4"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
