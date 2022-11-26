@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  shoppingList
-//
-//  Created by MacBook Air on 2022/11/03.
-//
-
 import UIKit
 
 @main

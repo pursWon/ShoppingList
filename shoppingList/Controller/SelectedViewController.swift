@@ -1,61 +1,30 @@
 import Foundation
 import UIKit
 
-class SelectedViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    
-    @IBOutlet weak var selectedTableView: UITableView!
-    @IBOutlet weak var titleTextField: UITextField!
-    var data: String = ""
-    var unChecked: Bool = true
-    
+protocol Sampleprotocol {
+    func dataSend(data: String)
+}
+
+class SelectedViewController: UIViewController {
+    // MARK: - Properties
+    var text: String = ""
+    var delegate: Sampleprotocol?
+    // MARK: - UI
+    @IBOutlet weak var textField: UITextField!
+    // MARK: - ViewLifeCycle
     override func viewDidLoad() {
-        selectedTableView.dataSource = self
-        selectedTableView.delegate = self
-        titleTextField.text = data
-    }
-    
-    @IBAction func saveButton(_ sender: UIButton) {
-        let text: String = titleTextField.text!
-        guard let vc = self.storyboard?.instantiateViewController(withIdentifier: "tableViewController") as? TableViewController
-        else { return }
+        super.viewDidLoad()
         
-        vc.data = titleTextField.text!
-        self.navigationController?.pushViewController(vc, animated: true)
-        
-        dismiss(animated: true)
+        textField.text = text
     }
+    // MARK: - Action
     
-    
-    @IBAction func checkButton(_ sender: UIButton) {
-        if unChecked == true {
-            sender.setImage(UIImage(systemName: "checkmark"), for: .normal)
-            unChecked = false
-        } else if unChecked == false {
-            sender.setImage(UIImage(), for: .normal)
-            unChecked = true
+    @IBAction func saveButton(_ sender: UIBarButtonItem) {
+        
+        if let text = textField.text {
+        delegate?.dataSend(data: text)
         }
-    }
-    
-    
-    @IBAction func backButton(_ sender: UIBarButtonItem) {
-        dismiss(animated: true)
-    }
-    
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        memo.count
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "SelectedCell", for: indexPath) as? SelectedCell else { return UITableViewCell() }
-        cell.contentsTextField.text = memo[indexPath.row].content
         
-        return cell
+        self.navigationController?.popViewController(animated: true)
     }
-    
 }
-
-class SelectedCell: UITableViewCell {
-    @IBOutlet weak var contentsTextField: UITextField!
-}
-
